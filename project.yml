@@ -1,0 +1,19 @@
+targetNamespace: ''
+parameters: {}
+packages:
+  - name: deps
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: hello
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits:
+          memory: 1024
+          timeout: 5000
